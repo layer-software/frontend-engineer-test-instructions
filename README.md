@@ -18,7 +18,7 @@ Your first step is to build a PoC.
 
 ### Requirements
 
-- The only formatting the PoC should support is **bold**. You can freely choose what actions trigger creation the formatting.
+- The only formatting the PoC should support is **bold**. You can freely choose what actions trigger creation of the formatting.
 - Optionally, the PoC must also support the concept of a paragraph. It's up to you how you choose to interpret this concept.
 - It must be possible to correct what has been written before. Copying and pasting is not required.
 - It must be possible to change the position of the cursor as well as select a portion of text using a pointer device (mouse, touchpad, etc.)
@@ -41,4 +41,4 @@ Your first step is to build a PoC.
 - We will appreciate additional information about the problems and potential solutions for future cases
     - when many users work on the same document simultaneously,
     - when the document becomes very large,
-    - when you add more formatting options like italics, font properties, embedded images, tables etc.
+    - when you add more formatting options like italics and font properties, or objects like embedded images, tables etc.
