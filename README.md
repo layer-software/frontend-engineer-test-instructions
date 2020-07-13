@@ -30,13 +30,18 @@ Your first step is to build a PoC.
 - The most important part for us is the APIs and technologies you choose and the reasoning why.
 - We will not pay attention to browser compatibility, so please skip that.
 - When it comes to the UI, we will appreciate some show-off of modern technology and your styling skills, but the design quality of the UI is not part of the evaluation. However, some insight into UX is expected. E.g., it's not important whether you add a shadow to the button or not, but we expect to understand from the UI how it works without a user's manual.
-- Please do not spend more than 6-8 hours for the challenge. It's completely OK to skip some parts of implementation and provide skeletons (eg., methods or tests without implementation) or simply descriptions if the boilerplate becomes too large. However, those parts that are implemented should follow best practices.
+- It's completely OK to skip some parts of implementation and provide skeletons (eg., methods or tests without implementation) or simply descriptions if the boilerplate becomes too large. However, those parts that are implemented should follow best practices.
+
+### Timeline
+
+- As a rule, you shouldn't spend more than 6-8 hours on the taks in total. As mentioned above, it's not obligatory to provide the result entirely in code.
+- **Tell us about the date** when you will send in the result by replying to [careers@golayer.io](mailto:careers@golayer.io). We don't mind if you take more time - it will not affect the evaluation.
 
 ### Deliverables
 
 - Create a **private** repository on GitHub (they are free). When you finish the challenge, invite `bez4pieci` as a collaborator to the repository you created and send a notification e-mail to [ernests@golayer.io](mailto:ernests@golayer.io).
 - Write your solution in code, and use multiple commits.
-- It should be runnable, so please provide instructions how to do that.
+- Generally, it should be runnable, so please provide instructions how to do that. If it's not runnable, please provide reasons as to why.
 - It is not required but if you like you can attach all documents, mockups, or diagrams which help you develop the code.
 - We will appreciate additional information about the problems and potential solutions for future cases
     - when many users work on the same document simultaneously,
