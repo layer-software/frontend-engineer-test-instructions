@@ -27,7 +27,7 @@ Your first step is to build a PoC.
 
 ## Evaluation Criteria
 
-- The most important part for us is the APIs and technologies you choose and the reasoning why.
+- The most important part for us is the APIs and technologies you choose and the reasoning why. However, we expect you approach the task as you would approach any task in your work.
 - We will not pay attention to browser compatibility, so please skip that.
 - When it comes to the UI, we will appreciate some show-off of modern technology and your styling skills, but the design quality of the UI is not part of the evaluation. However, some insight into UX is expected. E.g., it's not important whether you add a shadow to the button or not, but we expect to understand from the UI how it works without a user's manual.
 - It's completely OK to skip some parts of implementation and provide skeletons (eg., methods or tests without implementation) or simply descriptions if the boilerplate becomes too large. However, those parts that are implemented should follow best practices.
