@@ -34,7 +34,7 @@ Your first step is to build a PoC.
 
 ## Steps
 
-- First, think about a challenge, and before you start coding schedule a [20 minute check-in call](https://calendly.com/ernests/20-minute-call) with Ernests to go through questions you might have and present your approach to the challenge.
+- First, think about a challenge, and before you start coding schedule a [20 minute check-in call](https://calendly.com/ernests/20-minute-check-in) with Ernests to go through questions you might have and present your approach to the challenge.
 - Also, during the call we will expect you to tell us when you will send in the result. However, faster is not necessarily better. The time you take won't affect the evaluation.
 - The challenge itself shouldn’t take more than 6 hours in total of your time. As mentioned above, it’s not obligatory to provide the result entirely in code, but we expect a well thought through solution and quality code for the parts you focussed on. If you feel you are over time and not happy with your solution yet, please avoid sending an incomplete solution. Rather let us know and invest a bit more time to hand in a great solution you are proud of.
 
