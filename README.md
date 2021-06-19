@@ -1,6 +1,6 @@
 ## Welcome!
 
-We are happy you have decided to take our coding challenge. We really hope you will have fun with it.  Also, regardless of the evaluation outcome, we will give you feedback on your code. 
+We are happy you have decided to take our coding challenge. We really hope you will have fun with it. Also, regardless of the evaluation outcome, we will give you feedback on your code.
 
 At any time, please don't hesitate to ask any questions.
 
@@ -8,43 +8,59 @@ Happy coding!
 
 ## Task
 
-It's common knowledge that the `contentEditable` API is very powerful, but it also has a lot of... let's say, headaches. Besides, implementations in browsers tend to vary.
+Layer allows its users to share any part of an Excel spreadsheet. A user would upload their Excel spreadsheet on Layer app, and visually select areas they would like to share. 
 
-You have decided to build something better.
+To validate the concept, a basic prototype for the functionality has to be built. It will allow the user to choose one of already uploaded files, and select a region in it for sharing.
 
-You have founded a new startup "LetsEdit" and you have set out to build a better editor experience without the use of the `contentEditable` API. 
+For the sake of simplicity:
 
-Your first step is to build a PoC.
+- we are going to use a generic abstraction ("data table") of Excel files
+- Data tables are provided small in the dataset, but you should assume they can potentially get quite big.
+- cells can be selected only one by one
+- no authentication is required
+- designs need to be responsive only to the extent to fit various desktop screens. No need for mobile support.
 
-## Requirements
+Bonus points (surprise us!) for adding a feature of choice that you think will improve the UX of the application.
 
-- The only formatting the PoC should support is **bold**. You can freely choose what actions trigger creation of the formatting.
-- Optionally, the PoC must also support the concept of a paragraph. It's up to you how you choose to interpret this concept.
-- It must be possible to correct what has been written before. Copying and pasting is not required.
-- It must be possible to change the position of the cursor as well as select a portion of text using a pointer device (mouse, touchpad, etc.)
-- The editor must be built so that it will be easy to add a collaborative multi-user experience later. You don't know what technology you will use for the collaboration, but it's clear the architecture needs to be prepared to support multiple cursors and be agnostic to input source (data push or user device input)
-- Avoid using view or app frameworks, and stick to vanilla js as much as possible. This doesn't apply to the build pipeline. Also, if you choose to use reactive programming concepts, using a library for that is fine.
+## Behaviours
+
+- A data table can be selected for sharing from the list view
+- Any number of cells can be marked for sharing
+- Items can be removed from list of marked cells
+- The list of marked cells cannot contain duplicates
+
+## Dataset
+
+A GraphQL server is provided [here](https://github.com/layer-software/frontend-engineer-test-server)
+
+## UI
+
+You'll find all screens in the [Figma document](https://www.figma.com/file/m7asKnKB3KhWksGqZ1CrT8/Frontend-Engineer-Challenge-Designs?node-id=0%3A1). You need to create a free Figma account to access the document in developer handover mode. You will be then able to select elements and view their properties, i.e., colours, margins, fonts etc.
+
+<div class="display: flex">
+    <img width="400" alt="List View" src="https://user-images.githubusercontent.com/33003/122649775-d7419680-d12f-11eb-89d4-28f710b68049.png">
+    <img width="400" alt="Data Grid View" src="https://user-images.githubusercontent.com/33003/122649779-da3c8700-d12f-11eb-8ca3-b371bcc67ba7.png">
+</div>
 
 ## Evaluation Criteria
 
-- The most important part for us is the APIs and technologies you choose and the reasoning why. However, we expect you approach the task as you would approach any task in your work.
-- We will not pay attention to browser compatibility, so please skip that.
-- When it comes to the UI, we will appreciate some show-off of modern technology and your styling skills, but the design quality of the UI is not part of the evaluation. However, some insight into UX is expected. E.g., it's not important whether you add a shadow to the button or not, but we expect to understand from the UI how it works without a user's manual.
-- It's completely OK to skip some parts of implementation and provide skeletons (eg., methods or tests without implementation) or simply descriptions if the boilerplate becomes too large. However, those parts that are implemented should follow best practices.
+Treat this task the same way as you would at work, aiming for deployment to production. 
 
-## Steps
+We will pay attention to:
 
-- Think about the challenge and prepare any questions or doubts for your interview with the CTO.
-- Also, during the call we will expect you to tell us when you will send in the result. However, faster is not necessarily better. The time you take won't affect the evaluation.
-- The challenge itself shouldn’t take more than 6 hours in total of your time. As mentioned above, it’s not obligatory to provide the result entirely in code, but we expect a well thought through solution and quality code for the parts you focussed on. If you feel you are over time and not happy with your solution yet, please avoid sending an incomplete solution. Rather let us know and invest a bit more time to hand in a great outcome you are proud of.
+- **TypeScript** best practices
+- Commit history: show us how you work
+- Function: the program must be runnable and usable in the browser
+- Structure: use of components & routing, management of data flow, use of GraphQL
+- Completeness: did you complete the features?
+- Correctness: does the functionality act in sensible, thought-out ways?
+- Maintainability: is it written in a clean, maintainable way?
+- How you have interpreted the UI designs and implemented them in a structured way
+- Testing: is the system adequately tested?
 
 ## Deliverables
 
-- Create a **private** repository on GitHub (they are free). When you finish the challenge, invite `bez4pieci` as a collaborator to the repository you created and send a notification e-mail to [careers@golayer.io](mailto:careers@golayer.io).
-- Write your solution in code, and use multiple commits.
-- Generally, it should be runnable, so please provide instructions how to do that. If it's not runnable, please provide reasons as to why.
-- It is not required but if you like you can attach all documents, mockups, or diagrams which help you develop the code.
-- We will appreciate additional information about the problems and potential solutions for future cases
-    - when many users work on the same document simultaneously,
-    - when the document becomes very large,
-    - when you add more formatting options like italics and font properties, or objects like embedded images, tables etc.
+- Create a private repository on GitHub (they are free). When you finish the challenge, invite `bez4pieci` as a collaborator to the repository you created and send a notification e-mail to [careers@golayer.io](mailto:careers@golayer.io).
+- Make sure you include all code in the repository.
+- The task shouldn't take longer than ~3-4 hours of your time. Please be aware that we don't judge how fast you can code. If you feel you need more time to bring the solution to a state of your liking, please do so.
+- If you choose to skip some parts or you believe your assumptions need explaining, please provide adequate details in the README.
