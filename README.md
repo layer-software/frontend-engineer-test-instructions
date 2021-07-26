@@ -60,7 +60,8 @@ We will pay attention to:
 
 ## Deliverables
 
-- Create a private repository on GitHub (they are free). When you finish the challenge, invite `bez4pieci` as a collaborator to the repository you created and send a notification e-mail to [careers@golayer.io](mailto:careers@golayer.io).
+- Clone the [stub repository](https://github.com/layer-software/frontend-engineer-test-app) as your starting point
+- Create a private repository on GitHub (they are free) for your code. When you finish the challenge, invite `bez4pieci` as a collaborator to the repository you created and send a notification e-mail to [careers@golayer.io](mailto:careers@golayer.io).
 - Make sure you include all code in the repository.
 - The task shouldn't take longer than ~3-4 hours of your time. Please be aware that we don't judge how fast you can code. If you feel you need more time to bring the solution to a state of your liking, please do so.
 - If you choose to skip some parts or you believe your assumptions need explaining, please provide adequate details in the README.
